@@ -45,7 +45,9 @@ php artisan config:publish nayjest/themes
 ```
 
 2. Read the config and change something there if you need.
+
 By default, 'default' theme will be used with 'theme_prefix' option == 'theme_' and 'base_path' == default app views folder.
+
 So, theme folder will be: app/views/theme_default
 
 3. Copy views that you want to customize to theme folder and modify there.
@@ -53,8 +55,11 @@ So, theme folder will be: app/views/theme_default
 Example: 
 
 default (old) view file location:
+
     app/views/packages/my/users/list.blade.php
+
 themed view location:
+
     app/views/theme_default/packages/my/users/list.blade.php
 
 ## License
