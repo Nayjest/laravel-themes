@@ -66,7 +66,6 @@ class Manager
     }
 
     /**
-     * @todo @performance implement namespace hints instead!! see how it done in Illuminate\Support\ServiceProvider
      * @param $theme
      * @param $package
      */
